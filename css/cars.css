@@ -1,6 +1,16 @@
-.cars {
-  position: absolute;
-  background: url("../img/logo.png");
-  width: 30px;
-  height: 30px;
+.car1,
+.car2,
+.car3 {
+    display: none;
+    background-image: url("../img/logo.png") no-repeat 0 0;
+}
+
+body.body-car1 .car1 {
+    display: block;
+}
+body.body-car2 .car2 {
+    display: block;
+}
+body.body-car3 .car3 {
+    display: block;
 }
